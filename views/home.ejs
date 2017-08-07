@@ -1,0 +1,7 @@
+<h1><%= technology.toUpperCase() %></h1>
+
+<ul>
+    <% lists.forEach(function (elements) { %>
+    <li><%= elements.title %> - <i>written by</i> <strong><%= elements.by %></strong></li>
+    <% }) %>
+</ul>
